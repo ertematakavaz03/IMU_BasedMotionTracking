@@ -1,0 +1,28 @@
+HW1 Quick Run Guide
+-------------------------
+
+Required Libraries:
+csv, math, os, shutil, argparse, matplotlib
+
+-------------------------
+Part 1 - Data Visualization
+
+Command:
+python inspect_data.py
+
+-------------------------
+Part 2 - Step Counting
+
+Command:
+python main.py --file data/walking.csv --fs 100 --plot
+
+-------------------------
+Part 3 - Pose Estimation
+
+Command:
+python main.py --file data/mergedWalk.csv --fs 100 --gyro-unit rad --alpha 0.98
+
+Note:
+If the accelerometer and gyroscope data are saved separately,
+fuse them into a single synchronized file by running:
+python modules/merge_imu.py
