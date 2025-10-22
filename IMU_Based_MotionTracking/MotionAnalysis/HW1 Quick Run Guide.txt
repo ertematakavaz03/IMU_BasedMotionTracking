@@ -21,8 +21,14 @@ Part 3 - Pose Estimation
 
 Command:
 python main.py --file data/mergedWalk.csv --fs 100 --gyro-unit rad --alpha 0.98
+•	pose_human_animation.mp4:  https://drive.google.com/file/d/1hkkAtpc-g8JGnY1tZfutBhJKKY2XeFPf/view?usp=drive_link
+•	pose_animation.mp4: https://drive.google.com/file/d/1o5XfhFY7EC1f9sqGGo1FjgBQki3KLVH1/view?usp=drive_link
 
 Note:
 If the accelerometer and gyroscope data are saved separately,
 fuse them into a single synchronized file by running:
 python modules/merge_imu.py
+
+
+
+
